@@ -5,7 +5,7 @@ import supplementPill from "../../../assets/supplementPill.png";
 
 export default function Hero() {
   return (
-    <section className="bg-no-repeat bg-center bg-slate-900
+    <section className="bg-no-repeat bg-center bg-gradient-to-r from-slate-900 to-indigo-900
       pt-20 justify-start items-center flex flex-col"
     >
       <div className="max-w-6xl">

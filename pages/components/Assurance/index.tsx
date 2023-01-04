@@ -4,7 +4,7 @@ import seloImg from "../../../assets/selo.png";
 export default function Assurance() {
   return (
     <section className="px-10 sm:pb-4 pb-10 pt-4 flex flex-col sm:flex-row items-center justify-center
-      bg-slate-800 w-full">
+      w-full bg-gradient-to-r from-slate-800 to-indigo-800">
       <div>
         <Image
           alt="Image from tag about product assurance by law"

@@ -1,6 +1,6 @@
 export default function Info() {
   return (
-    <section className="p-4 bg-slate-800">
+    <section className="p-4 bg-gradient-to-r from-slate-800 to-indigo-800">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-center text-white text-4xl p-6 font-sans">
           Suplemento inteligente

@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-white h-screen scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-cyan-900'>                
+      <main className='bg-slate-900 h-screen scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-gray-800'>                
         <Hero />
         <Info />
         <FeedbackClients />
