@@ -28,28 +28,35 @@ export default function Footer() {
           </h1>
           <Link 
             href="https://www.instagram.com/domfitsuplem/" target="_blank"
-            className='flex items-center pb-2'
+            className='flex items-center pb-2 group hover:scale-110 hover:transition-transform'
           >
             <FaInstagram size={30} color="#ffffff" />
-            <p className='text-gray-300 text-sm font-sans pl-2'>
+            <p className='text-gray-300 text-sm font-sans pl-2 
+              hover:underline-offset-2 hover:underline'
+            >
               Instagram
             </p> 
           </Link>
           <Link 
-            href="#"
-            className='flex items-center pb-2'
+            href="https://www.facebook.com/people/Dom-Fit-Suplem/100088232860527/"
+            target="_blank"
+            className='flex items-center pb-2 group hover:scale-110 hover:transition-transform'
           >
             <FaFacebook size={30} color="#ffffff" />
-            <p className='text-gray-300 text-sm font-sans pl-2'>
+            <p className='text-gray-300 text-sm font-sans pl-2
+              hover:underline-offset-2 hover:underline'
+            >
               Facebook
             </p>
           </Link>
           <Link 
             href="mailto:domfitsuplem@hotmail.com" 
-            className='flex items-center'
+            className='flex items-center group hover:scale-110 hover:transition-transform'
           >
             <AiOutlineMail size={30} color="#ffffff" />
-            <p className='text-gray-300 text-sm font-sans pl-2'>
+            <p className='text-gray-300 text-sm font-sans pl-2
+              hover:underline-offset-2 hover:underline'
+            >
               domfitsuplem@hotmail.com
             </p>
           </Link>
@@ -62,13 +69,17 @@ export default function Footer() {
         </p>
       </div>
       <div className='flex flex-row justify-center items-center pt-3'>
-        <p className='text-gray-300 text-center px-1'>
+        <p className='text-gray-400 text-center text-sm px-1'>
           Desenvolvido por
         </p>
         <IoIosCode className='h-4 w-4 tex text-gray-200'/>
-        <p className='text-gray-500 text-center px-1'>
-          Régis
-        </p>
+        <Link href="http://www.linkedin.com/in/regis-de-oliveira-cardoso" target="_blank">
+          <p className='text-gray-500 text-center text-sm px-1
+            hover:underline-offset-2 hover:underline'
+          >
+            Régis
+          </p>
+        </Link>
         <BiCodeAlt className='h-4 w-4 tex text-gray-200'/>
       </div>
     </footer>
