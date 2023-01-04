@@ -21,8 +21,8 @@ export default function Home() {
         <Info />
         <FeedbackClients />
         <Assurance />
-        {/* <Doubts />
-        <Footer /> */}
+        {/* <Doubts /> */}
+        <Footer />
       </main>
     </>
   )

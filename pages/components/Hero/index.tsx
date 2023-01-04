@@ -6,7 +6,7 @@ import supplementPill from "../../../assets/supplementPill.png";
 export default function Hero() {
   return (
     <section className="bg-no-repeat bg-center bg-gradient-to-r from-slate-900 to-indigo-900
-      pt-20 justify-start items-center flex flex-col"
+      pt-14 justify-start items-center flex flex-col"
     >
       <div className="max-w-6xl">
         <div className="flex flex-col justify-center items-center relative">
@@ -42,8 +42,8 @@ export default function Hero() {
             >
               Um suplemento alimentar natural que vai te auxiliar na reeducação alimentar e inibir o apetite, auxiliando na ansiedade e saciedade, fazendo com que vc possa eliminar de 2 até 8 kilos por mês 😉💚✅ 
             </p>
-            <Link href="/#" className="bg-green-700 py-3 px-10 text-xl text-white
-              font-bold rounded-3xl hover:bg-green-800 transition-colors font-sans"
+            <Link href="/#" className="bg-green-700 py-2 sm:py-3 px-10 text-lg text-white
+              font-bold rounded-2xl hover:bg-green-800 transition-colors font-sans"
             >
               Comprar agora
             </Link>
