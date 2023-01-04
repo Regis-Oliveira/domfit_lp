@@ -16,7 +16,7 @@ export default function Assurance() {
         />
       </div>
       <div className="max-w-lg sm:pl-3">
-        <p className="text-gray-400 text-base sm:text-lg leading-relaxed text-center">
+        <p className="text-gray-400 text-base sm:text-lg leading-relaxed text-center font-sans">
           O código de defesa consumidor (Art. 49) garante 7 dias para solicitar reembolso em caso de insatisfação com o produto.
         </p>
       </div>

@@ -10,10 +10,10 @@ export default function Hero() {
     >
       <div className="max-w-6xl">
         <div className="flex flex-col justify-center items-center relative">
-          <h1 className=" text-center text-white text-6xl font-bold">
+          <h1 className=" text-center text-white text-6xl font-bold font-sans">
             Max Pro
           </h1>
-          <h2 className="text-center text-gray-300 text-3xl font-bold mt-4">
+          <h2 className="text-center text-gray-300 text-3xl mt-4 font-sans">
             Suplemento natural para emagrecer
           </h2>
           {/* <Image
@@ -43,7 +43,7 @@ export default function Hero() {
               Um suplemento alimentar natural que vai te auxiliar na reeducação alimentar e inibir o apetite, auxiliando na ansiedade e saciedade, fazendo com que vc possa eliminar de 2 até 8 kilos por mês 😉💚✅ 
             </p>
             <Link href="/#" className="bg-green-700 py-3 px-10 text-xl text-white
-              font-bold rounded-3xl hover:bg-green-800 transition-colors"
+              font-bold rounded-3xl hover:bg-green-800 transition-colors font-sans"
             >
               Comprar agora
             </Link>

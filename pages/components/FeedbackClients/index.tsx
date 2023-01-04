@@ -2,7 +2,7 @@ export default function FeedbackClients() {
   return (
     <>
       <div className="bg-slate-900 flex items-center justify-center pt-10 pb-5">
-        <p className=" text-center text-3xl text-white">
+        <p className=" text-center text-3xl text-white font-sans">
           Avaliação de clientes
         </p>
       </div>
@@ -12,26 +12,26 @@ export default function FeedbackClients() {
         <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 
           items-center justify-center my-5">
           <div className="rounded-lg p-4 bg-gray-800 border border-gray-700">
-            <h4 className="text-white text-base font-bold">
+            <h4 className="text-white text-base font-bold font-sans">
               Jean ----
             </h4>
-            <p className="text-gray-400 text-base">
+            <p className="text-gray-400 text-base font-sans">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio facere, nesciunt aspernatur nihil quia veritatis autem consequatur. Veritatis, quas? Modi, ratione consectetur illum animi voluptate nisi at nostrum vel possimus!
             </p>
           </div>
           <div className="rounded-lg p-4 bg-gray-800 border border-gray-700">
-            <h4 className="text-white text-base font-bold">
+            <h4 className="text-white text-base font-bold font-sans">
               Juju ----
             </h4>
-            <p className="text-gray-400 text-base">
+            <p className="text-gray-400 text-base font-sans">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio facere, nesciunt aspernatur nihil quia veritatis autem consequatur. Veritatis, quas? Modi, ratione consectetur illum animi voluptate nisi at nostrum vel possimus!
             </p>
           </div>
           <div className="rounded-lg p-4 bg-gray-800 border border-gray-700">
-            <h4 className="text-white text-base font-bold">
+            <h4 className="text-white text-base font-bold font-sans">
               Jean Grey ----
             </h4>
-            <p className="text-gray-400 text-base">
+            <p className="text-gray-400 text-base font-sans">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio facere, nesciunt aspernatur nihil quia veritatis autem consequatur. Veritatis, quas? Modi, ratione consectetur illum animi voluptate nisi at nostrum vel possimus!
             </p>
           </div>
