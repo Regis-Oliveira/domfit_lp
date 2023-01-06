@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import Assurance from './components/Assurance';
-import Doubts from './components/Doubts';
+import Accordion from './components/Accordion';
 import FeedbackClients from './components/FeedbackClients';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -16,12 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-slate-900 h-screen scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-gray-800'>                
+      <main className='h-screen scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-gray-800'>                
         <Hero />
         <Info />
         <FeedbackClients />
         <Assurance />
-        {/* <Doubts /> */}
+        {/* <Accordion /> */}
         <Footer />
       </main>
     </>

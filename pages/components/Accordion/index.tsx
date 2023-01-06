@@ -1,4 +1,4 @@
-export default function Doubts() {
+export default function Accordion() {
   return (
     <section>
       <div>Duvidas frequentes</div>
