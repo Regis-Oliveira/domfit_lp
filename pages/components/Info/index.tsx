@@ -27,8 +27,9 @@ export default function Info() {
           </h4>
         </div>
         <div className="flex justify-center pb-7">
-          <Link href="/#" className="bg-green-700 py-2 px-10 text-lg text-white
-            font-bold rounded-2xl hover:bg-green-800 transition-colors font-sans"
+          <Link href="/#" className="h-12 flex items-center bg-green-700 py-2 px-10 text-lg text-white
+            font-bold rounded-2xl hover:bg-green-800 font-sans 
+            hover:scale-105 ease-in-out duration-300 transition-all"
           >
             Comprar agora
           </Link>
