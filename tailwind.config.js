@@ -10,7 +10,7 @@ module.exports = {
         sans: ['var(--font-roboto)']
       },
       backgroundImage: {
-        'hero-pattern': "url('../assets/1280x893.jpg')",
+        'hero-pattern': "url('../assets/background-electric.png')",
       }
     },
   },
