@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import supplementPill from "../../../assets/supplementPill.png";
 
-export default function Hero() {
+export default function Hero() {  
   return (
     <div className="bg-no-repeat bg-hero-pattern bg-cover bg-center">
       <section className="

@@ -11,28 +11,28 @@ export default function FeedbackClients() {
       >
         <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 
           items-center justify-center my-5">
-          <div className="rounded-xl p-4 bg-gray-900 border border-gray-700">
+          <div className="rounded-xl p-4 bg-gray-900 border border-gray-700 min-h-[8.2rem]">
             <h4 className="text-white text-base font-bold font-sans">
-              Jean ----
+              Suse Oliveira
             </h4>
             <p className="text-gray-400 text-base font-sans">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio facere, nesciunt aspernatur nihil quia veritatis autem consequatur. Veritatis, quas? Modi, ratione consectetur illum animi voluptate nisi at nostrum vel possimus!
+              Comecei a ter resultados em 3 dias com esse suplemento, achei incrível, hoje faz parte da minha vida
             </p>
           </div>
-          <div className="rounded-xl p-4 bg-gray-900 border border-gray-700">
+          <div className="rounded-xl p-4 bg-gray-900 border border-gray-700 min-h-[8.2rem]">
             <h4 className="text-white text-base font-bold font-sans">
-              Juju ----
+              Heloana Daiana Carvalho
             </h4>
             <p className="text-gray-400 text-base font-sans">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio facere, nesciunt aspernatur nihil quia veritatis autem consequatur. Veritatis, quas? Modi, ratione consectetur illum animi voluptate nisi at nostrum vel possimus!
+              Consegui emagrecer usando o Max Pro 😍, ajudou a regular minha alimentação rsrsrs hoje me sinto bem melhor 
             </p>
           </div>
-          <div className="rounded-xl p-4 bg-gray-900 border border-gray-700">
+          <div className="rounded-xl p-4 bg-gray-900 border border-gray-700 min-h-[8.2rem]">
             <h4 className="text-white text-base font-bold font-sans">
-              Jean Grey ----
+              Edenise Gomes
             </h4>
             <p className="text-gray-400 text-base font-sans">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio facere, nesciunt aspernatur nihil quia veritatis autem consequatur. Veritatis, quas? Modi, ratione consectetur illum animi voluptate nisi at nostrum vel possimus!
+              Amei esses produtos, realmente meu corpo mudou e aumentei minha autoestima ❤️
             </p>
           </div>
         </div>
