@@ -22,7 +22,7 @@ export default function Footer() {
             className="rounded-md"
           />
         </div>
-        <div className='flex flex-col justify-between'>
+        <div className='flex flex-col justify-between ml-3 sm:m-0'>
           <h1 className='text-white text-2xl pb-3'>
             Contato
           </h1>

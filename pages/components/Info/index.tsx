@@ -27,9 +27,12 @@ export default function Info() {
           </h4>
         </div>
         <div className="flex justify-center pb-7">
-          <Link href="/#" className="h-12 flex items-center bg-green-700 py-2 px-10 text-lg text-white
-            font-bold rounded-2xl hover:bg-green-800 font-sans 
-            hover:scale-105 ease-in-out duration-300 transition-all"
+          <Link
+            target="_blank"
+            href="https://domfitsuplem.lojavirtualnuvem.com.br/produtos/max-pro-suplemento-natural-para-emagrecer/" 
+            className="h-12 flex items-center bg-green-700 py-2 px-10 text-lg text-white
+              font-bold rounded-2xl hover:bg-green-800 font-sans 
+              hover:scale-105 ease-in-out duration-300 transition-all"
           >
             Comprar agora
           </Link>
