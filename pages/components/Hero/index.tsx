@@ -36,7 +36,10 @@ export default function Hero() {
                 Um suplemento alimentar natural que vai te auxiliar na reeducação alimentar e inibir o apetite, auxiliando na ansiedade e saciedade, fazendo com que vc possa eliminar de 2 até 8 kilos por mês 😉💚✅ 
               </p>
               <div className="flex justify-center items-center w-full pl-3 md:justify-start">
-                <Link href="/#" className="h-12 flex items-center hover:scale-105 ease-in-out duration-300 bg-green-700 
+                <Link
+                  target="_blank" 
+                  href="https://domfitsuplem.lojavirtualnuvem.com.br/produtos/max-pro-suplemento-natural-para-emagrecer/" 
+                  className="h-12 flex items-center hover:scale-105 ease-in-out duration-300 bg-green-700 
                     py-1 sm:py-3 px-10 text-lg text-white font-bold rounded-2xl hover:bg-green-800 font-sans transition-all"
                 >
                   Comprar agora
