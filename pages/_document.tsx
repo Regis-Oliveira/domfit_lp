@@ -7,6 +7,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta name="facebook-domain-verification" content="ijdkr7v5pj31iakhz19tqqxbpho0sl" />
         <noscript>
           <Image
             alt="Facebook loader"
