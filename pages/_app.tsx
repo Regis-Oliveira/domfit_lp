@@ -1,19 +1,19 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { Roboto } from '@next/font/google';
+import { Inter } from '@next/font/google';
 import Script from 'next/script';
 
-const roboto = Roboto({ 
+const inter = Inter({ 
   subsets: ['latin'], 
   weight: ['400', '700'],
-  variable: '--font-roboto'
+  variable: '--font-inter'
 });
 
 const FB_PIXEL_ID = process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID;
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${roboto.variable} font-sans`}>
+    <main className={`${inter.variable} font-sans`}>
       <Script 
         id="fb-pixel"
         strategy="afterInteractive"

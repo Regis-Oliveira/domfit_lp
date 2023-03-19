@@ -1,3 +1,5 @@
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,10 +9,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-roboto)']
+        sans: ['var(--font-inter)', ...fontFamily.sans]
       },
       backgroundImage: {
-        'hero-pattern': "url('../assets/background-electric.png')",
+        'hero-pattern': "url('../assets/background-grunge-texture-dark.jpg')",
       }
     },
   },

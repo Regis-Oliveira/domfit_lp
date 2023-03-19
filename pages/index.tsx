@@ -16,12 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='h-screen scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-gray-800'>                
+      <main className='h-screen scrollbar-thin scrollbar-track-slate-700 scrollbar-thumb-gray-900'>                
         <Hero />
         <Info />
         <FeedbackClients />
         <Assurance />
-        {/* <Accordion /> */}
+        <Accordion />
         <Footer />
       </main>
     </>

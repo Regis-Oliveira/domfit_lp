@@ -23,7 +23,7 @@ export default function Footer() {
           />
         </div>
         <div className='flex flex-col justify-between ml-3 sm:m-0'>
-          <h1 className='text-white text-2xl pb-3'>
+          <h1 className='text-white text-2xl pb-1 sm:pb-2'>
             Contato
           </h1>
           <Link 
