@@ -18,12 +18,12 @@ export default function Info() {
             width={500}
             height={500}
             priority
-            className="rounded-xl border border-fuchsia-900" 
+            className="rounded-xl border border-[rgb(5,200,203)]" 
             alt="Image showing why choose max pro" 
           />
         </div>
         <div className="max-w-[1440px] flex flex-col justify-center items-center">
-          <h2 className="text-gray-300 text-2xl w-1/2 text-center leading-relaxed font-sans">
+          <h2 className="text-gray-300 text-2xl w-[80%] sm:w-1/2 text-center leading-relaxed font-sans">
             Suplemento com alta taxa de sucesso, atingindo resultados incríveis surpreendendo o público, mudando vidas e trazendo novamente a confiança para as pessoas, transformando seus corpos e chegando aos resultados desejados.  
           </h2>
         </div>
@@ -62,7 +62,7 @@ export default function Info() {
             width={600}
             height={600}
             priority
-            className="rounded-xl mt-6 border border-fuchsia-900" 
+            className="rounded-xl mt-6 border border-[rgb(5,200,203)]" 
             alt="Image showing why choose max pro" 
           />
         </div>

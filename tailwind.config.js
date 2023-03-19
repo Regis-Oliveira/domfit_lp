@@ -12,7 +12,7 @@ module.exports = {
         sans: ['var(--font-inter)', ...fontFamily.sans]
       },
       backgroundImage: {
-        'hero-pattern': "url('../assets/background-grunge-texture-dark.jpg')",
+        'hero-pattern': "url('../assets/background-grunge-texture-dark-2.jpg')",
       }
     },
   },

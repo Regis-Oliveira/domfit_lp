@@ -17,8 +17,8 @@ export default function Footer() {
             alt="Logo brand Dom fit Suplem - Suplementos Alimentar"
             src={logoImg}
             priority
-            width={200}
-            height={200}
+            width={180}
+            height={180}
             className="rounded-md"
           />
         </div>

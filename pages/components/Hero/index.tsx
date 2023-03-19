@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="bg-no-repeat bg-cover bg-center bg-hero-pattern">
       <section className="
-        pt-14 justify-start items-center flex flex-col backdrop-blur-sm"
+        pt-14 justify-start items-center flex flex-col backdrop-blur-0"
       >
         <div className="max-w-6xl">
           <div className="flex flex-col justify-center items-center relative mb-8">
@@ -37,8 +37,8 @@ export default function Hero() {
                 <Link
                   target="_blank" 
                   href="https://domfitsuplem.lojavirtualnuvem.com.br/produtos/max-pro-suplemento-natural-para-emagrecer/" 
-                  className="h-12 flex items-center hover:scale-105 ease-in-out duration-300 bg-green-700 
-                    py-1 sm:py-3 px-10 text-lg text-white font-bold rounded-2xl hover:bg-green-800 font-sans transition-all"
+                  className="h-14 flex items-center hover:scale-105 ease-in-out duration-300 bg-green-700 
+                    py-1 sm:py-3 px-10 text-2xl text-white font-bold rounded-2xl hover:bg-green-800 font-sans transition-all"
                 >
                   Comprar agora
                 </Link>

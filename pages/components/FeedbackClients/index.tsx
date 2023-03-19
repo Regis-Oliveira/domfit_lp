@@ -31,7 +31,7 @@ export default function FeedbackClients() {
           items-center justify-center my-5">
           {feedbacks.map((feedback) => (
             <div 
-              className="rounded-xl p-4 bg-black border border-fuchsia-900 min-h-[11rem]"
+              className="rounded-xl p-4 bg-black border border-[rgb(5,200,203)] min-h-[11rem]"
               key={feedback.id}
             >
               <h4 className="text-white text-lg font-bold font-sans">
