@@ -25,7 +25,7 @@ export default function FeedbackClients() {
         </p>
       </div>
       <section className=" flex justify-center items-center w-full
-        px-6 pb-10"
+        px-6"
       >
         <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 
           items-center justify-center my-5">
