@@ -28,12 +28,12 @@ export default function Hero() {
               whileTap={{ scale: 0.75 }}
             >
               <Image
-                alt="Beautiful background image with blue circles"
+                alt="Beautiful image of MaxPro Suplem"
                 src={supplementPill}
                 priority
-                width={700}
-                height={70}
-                className="align-middle justify-self-auto w-96 drop-shadow-[0_15px_35px_rgba(10,20,250,0.75)] border border-purple-500"
+                width={600}
+                height={600}
+                className="align-middle justify-self-auto w-[38rem] drop-shadow-[0_15px_35px_rgba(10,20,250,0.75)] border border-purple-500"
               />
             </motion.div>
             <div className="items-center justify-between flex flex-col px-3 pb-10">
