@@ -4,8 +4,8 @@ import Image from "next/image";
 import { RocketLaunchIcon } from "@heroicons/react/24/solid";
 import { animate, motion, useMotionValue, useTransform } from "framer-motion";
 
-import imageWhyChoose from "../../../assets/maxProWhyChoose.jpg";
-import imageComposition from "../../../assets/maxProComposition.jpg";
+import imageWhyChoose from "../../../assets/maxProWhyChoose-702x878.jpg";
+import imageComposition from "../../../assets/maxProComposition-778x778.jpg";
 
 export default function Info() {
   const count = useMotionValue(70);

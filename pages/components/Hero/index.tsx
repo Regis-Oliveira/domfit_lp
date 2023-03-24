@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import supplementPill from "../../../assets/supplementPill.png";
 import { motion } from "framer-motion";
+
+import supplementPill from "../../../assets/supplementPill-640x800.png";
 
 export default function Hero() {  
   return (
